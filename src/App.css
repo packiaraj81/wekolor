@@ -14,12 +14,13 @@ h2 {
 
 h3 {
   padding-bottom: 1 rem;
+  margin-top: 0;
 }
 
 p {
   padding: 0;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   line-height: 2.4rem;
   text-align: center;
 }
@@ -32,7 +33,7 @@ ul {
 
 li {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .landing-page-what-we-do {
@@ -51,17 +52,56 @@ li {
 .why {
   display: flex;
   align-items: center;
+  padding-top: 1.5rem;
+}
+
+.icon-wrapper {
+  align-self: flex-start;
 }
 
 .why-icon {
   margin-left:1.5rem;
-  width: 5.5rem;;
+  width: 5.5rem;
+  align-self: flex-start;
 }
 
 .why-text {
   text-align: left;
   margin-left: 2rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.circle-around-letter-p {
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: .1rem .6rem;
+    background: rgb(61, 60, 60);
+    color: white;
+    text-align: center;
+    margin-right:.1rem;
+}
+
+.circle-around-letter-i {
+  border-radius: 50%;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0.05rem 0.9rem;
+  background: rgb(61, 60, 60);
+  color: white;
+  text-align: center;
+  margin-right:1px;
+}
+
+.circle-around-letter-t {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  padding: 1px 6px;
+  background: rgb(61, 60, 60);
+  color: white;
+  text-align: center;
+  margin-right:1px;
 }
 
 .why-message {
@@ -71,7 +111,7 @@ li {
 .pitstop-text {
   margin-top: 20px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 

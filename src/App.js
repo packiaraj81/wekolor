@@ -32,16 +32,7 @@ function App() {
             grading and finishing.
           </p>
         </div>
-        <div
-          className="what-we-do-section"
-          style={
-            {
-              // backgroundColor: "rgb(208 243 167)",
-              // padding: "15px",
-              // color: "black",
-            }
-          }
-        >
+        <div className="what-we-do-section">
           <h2>WHAT WE DO</h2>
           <p className="body-content">
             Ever seen a great song or a critical scene spoiled by poor color
@@ -101,11 +92,13 @@ function App() {
         >
           <h2>WHY WeKolor?</h2>
           <div className="why">
-            <span style={{ color: "black" }}>
+            <span className="icon-wrapper">
               <img className="why-icon" src={passion} />
             </span>
             <span className="why-text">
-              <h3>Passion</h3>
+              <h3>
+                <span className="circle-around-letter-p">P</span>assion
+              </h3>
               {/* We are passionate about what we do and it is not just business. */}
               <span className="why-message">
                 It is not just business. It is our passion and we follow it with
@@ -116,11 +109,13 @@ function App() {
           </div>
           <br />
           <div className="why">
-            <span style={{ color: "black" }}>
+            <span className="icon-wrapper">
               <img className="why-icon" src={innovation} />
             </span>
             <span className="why-text">
-              <h3>Innovation</h3>
+              <h3>
+                <span className="circle-around-letter-i">I</span>nnovation
+              </h3>
               <span className="why-message">
                 We strive for achieving excellence by constantly exploring and
                 innovating tailor-made techniques to provide exceptional service
@@ -130,11 +125,14 @@ function App() {
           </div>
           <br />
           <div className="why">
-            <span>
+            <span className="icon-wrapper">
               <img className="why-icon" src={trust} />
             </span>
             <span className="why-text">
-              <h3>Trust</h3>
+              <h3>
+                {" "}
+                <span className="circle-around-letter-t">T</span>rust
+              </h3>
               <span className="why-message">
                 Trust is the key to our business. We want to build a long
                 lasting relationship so that our clients and partners can always
@@ -196,6 +194,8 @@ function App() {
         </div>
         <p>
           Corporate Address: <br />
+          WeKolor Media Private Limited
+          <br />
           #3 Sri Ramulu Street <br />
           Saravana Colony, Arunachalam Rd <br />
           Saligramam, Chennai, India - 600 093
