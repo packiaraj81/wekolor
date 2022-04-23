@@ -2,37 +2,185 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  text-align: center;
+  margin: 0;
+  letter-spacing: 1px;
+  line-height: 4.5rem;
+  color: 'white';
+  font-size: 2rem;
+  font-weight: 850;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  padding-bottom: 1 rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+p {
+  padding: 0;
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+ul {
+  line-height: 2.4rem;
+  list-style-type: none;
+  padding:0;
+}
+
+li {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.landing-page-what-we-do {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 21.6px;
+}
+
+.what-we-do-section {
+  padding: 1.5rem;
+  color:white;
+  background: rgb(170,36,121);
+  /* background: radial-gradient(circle, rgba(176,50,105,1) 76%, rgba(233,166,148,1) 100%); */
+}
+
+.why {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+}
+
+.why-icon {
+  margin-left:1.5rem;
+  width: 5.5rem;;
+}
+
+.why-text {
+  text-align: left;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+}
+
+.why-message {
+  line-height: 2rem;
+}
+
+.pitstop-text {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.meet-our-colorist {
+    background-color: rgb(9 63 89);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    color:#ffffffe0;
+}
+
+.meet-colorist-heading {
+  color: white;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.colorist-image {
+  margin: 1.5rem 0;
+  width: 15rem;
+  border-radius: 50%; 
+  align-self: center;
+}
+
+/* .body-content {
+  padding-bottom: 1rem;
+} */
+
+.about-us-section {
+  background-color: rgb(170,36,121);
+  /* background: linear-gradient(90deg, rgba(170,36,121,1) 0%, rgba(179,46,46,1) 100%); */
+}
+
+.contact-us-heading {
+  background-color: crimson;
+  color: white;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+
+.footer-text {
+  width: 100%;
+  background-color: #060000;
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 5 rem;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1.7rem;
+  font-weight: 500;
+  padding-top: 1rem;;
+  padding-bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.connect-with-us {
+  padding-top: 2rem;
+  display: flex;
+  align-items:center;
+  justify-content:center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.phone-icon { 
+width: 4rem;
+height: 4rem;
+padding-right: 4rem;
 }
+
+.whatsapp-icon { 
+  width: 4rem;
+  height: 4rem;
+  }
+
+.social-media {
+  display: flex;
+  padding-top: 4rem;
+  align-items:center;
+  justify-content:space-evenly;
+  padding-bottom: 4rem;
+}
+
+.facebook{
+  width: 4.9rem;
+  height: 4.9rem;
+}
+
+.insta {
+  width: 5.5rem;
+  height: 5.5rem;
+}
+
+.twitter {
+  width: 5.3rem;
+  height: 5.4rem;
+}
+
+.social-icon:last-child {
+  padding:0;
+}
+
+.copyright-message {
+  padding-bottom: 4rem;
+}
+
