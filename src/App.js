@@ -137,8 +137,8 @@ function App() {
                 </h3>
                 <span className="why-message">
                   Trust is the key to our business. We want to build long
-                  lasting relationships with our our clients and partners who
-                  can always count on us.
+                  lasting relationships with our clients and partners who can
+                  always count on us.
                 </span>
               </span>
             </div>
@@ -163,7 +163,7 @@ function App() {
             <br /> <br />
             Our goal is to build a world class post production facility that
             provides cost effective and innovative solutions for Digital
-            Intermidiate and VFX workflows.
+            Intermediate and VFX workflows.
           </p>
         </div>
       </div>
