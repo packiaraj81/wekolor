@@ -28,7 +28,7 @@ function App() {
           <h2 className="who-we-are">WHO WE ARE</h2>
           <p className="body-content">
             We are passionate artists and engineers specialized in Digitial
-            Intermediate (DI) process for motion pictures and have expertise in
+            Intermediate (DI) process for motion pictures. We have expertise in
             color grading and finishing.
           </p>
         </div>
@@ -193,6 +193,13 @@ function App() {
             +91 95140 00440
           </a>
         </div>
+        <p className="email">
+          Email: &nbsp;{" "}
+          <a style={{ color: "white" }} href="mailto: info@wekolor.com">
+            info@wekolor.com
+          </a>
+        </p>
+
         <p>
           Corporate Address: <br />
           WeKolor Media Private Limited
