@@ -5,7 +5,7 @@
 h2 {
   text-align: center;
   margin: 0;
-  letter-spacing: 1px;
+  letter-spacing: .1rem;
   line-height: 4.5rem;
   color: 'white';
   font-size: 2rem;
@@ -39,7 +39,7 @@ li {
 .landing-page-what-we-do {
   font-size: 1.6rem;
   font-weight: 500;
-  line-height: 21.6px;
+  line-height: 2.16rem;
 }
 
 .what-we-do-section {
@@ -60,14 +60,14 @@ li {
 }
 
 .why-icon {
-  margin-left:1.5rem;
+  margin-left:1rem;
   width: 5.5rem;
   align-self: flex-start;
 }
 
 .why-text {
   text-align: left;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   font-size: 1.6rem;
 }
 
@@ -90,18 +90,18 @@ li {
   background: rgb(61, 60, 60);
   color: white;
   text-align: center;
-  margin-right:1px;
+  margin-right:.1rem;
 }
 
 .circle-around-letter-t {
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  padding: 1px 6px;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: .1rem .6rem;
   background: rgb(61, 60, 60);
   color: white;
   text-align: center;
-  margin-right:1px;
+  margin-right:.1rem;
 }
 
 .why-message {
@@ -109,7 +109,7 @@ li {
 }
 
 .pitstop-text {
-  margin-top: 20px;
+  padding-top: 2rem;
   text-align: center;
   font-size: 1.6rem;
   font-weight: 500;
@@ -136,13 +136,12 @@ li {
   align-self: center;
 }
 
-/* .body-content {
+.body-content {
   padding-bottom: 1rem;
-} */
+}
 
 .about-us-section {
   background-color: rgb(170,36,121);
-  /* background: linear-gradient(90deg, rgba(170,36,121,1) 0%, rgba(179,46,46,1) 100%); */
 }
 
 .contact-us-heading {
@@ -151,7 +150,6 @@ li {
   width: 100%;
   margin-top: 1rem;
 }
-
 
 .footer-text {
   width: 100%;

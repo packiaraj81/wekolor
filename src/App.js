@@ -27,9 +27,9 @@ function App() {
         >
           <h2 className="who-we-are">WHO WE ARE</h2>
           <p className="body-content">
-            We are passionate artists and engineers specialized in the post
-            production Digitial Intermediate (DI) and have expertise in color
-            grading and finishing.
+            We are passionate artists and engineers specialized in Digitial
+            Intermediate (DI) process for motion pictures and have expertise in
+            color grading and finishing.
           </p>
         </div>
         <div className="what-we-do-section">
@@ -54,7 +54,7 @@ function App() {
           <ul>
             <li>Color correction</li>
             <li>Color grading</li>
-            <li>HDR grading</li>
+            <li>HDR grading for OTT</li>
             <li>Title and Credits</li>
             <li>Sub titles</li>
             <li>DCP mastering</li>
@@ -63,7 +63,7 @@ function App() {
         <div className="meet-our-colorist">
           <h2 className="meet-colorist-heading">MEET OUR COLORIST</h2>
           <img className="colorist-image" src={colorist}></img>
-          <p>
+          <p className="body-content">
             <strong>
               <span style={{ color: "white" }}>
                 &nbsp;<a>Muthuraj Ramalingam</a>
@@ -73,11 +73,12 @@ function App() {
             industry with specialization in color grading, conforming and
             working closely with the Directors, DOPs, editors and VFX artists.
             <br />
-            He worked as colorist for more than 100 movies across Malayalam,
-            Tamil and Telugu movies. He was awarded
+            He worked as a colorist in more than 100 movies across the
+            Malayalam, Tamil and Telugu film industry. He received the
             <strong>
               <span style={{ color: "white" }}>
-                &nbsp;<q>Best Colorist – Kerala state award for year 2017</q>
+                &nbsp;
+                <q>Best Colorist – Kerala state award for the year 2017</q>
               </span>
             </strong>
             .
@@ -91,57 +92,59 @@ function App() {
           }}
         >
           <h2>WHY WeKolor?</h2>
-          <div className="why">
-            <span className="icon-wrapper">
-              <img className="why-icon" src={passion} />
-            </span>
-            <span className="why-text">
-              <h3>
-                <span className="circle-around-letter-p">P</span>assion
-              </h3>
-              {/* We are passionate about what we do and it is not just business. */}
-              <span className="why-message">
-                It is not just business. It is our passion and we follow it with
-                a purpose to fullfil your dreams. We walk the extra mile to
-                finish your project without cutting the corners.
+          <div className="body-content">
+            <div className="why">
+              <span className="icon-wrapper">
+                <img className="why-icon" src={passion} />
               </span>
-            </span>
-          </div>
-          <br />
-          <div className="why">
-            <span className="icon-wrapper">
-              <img className="why-icon" src={innovation} />
-            </span>
-            <span className="why-text">
-              <h3>
-                <span className="circle-around-letter-i">I</span>nnovation
-              </h3>
-              <span className="why-message">
-                We strive for achieving excellence by constantly exploring and
-                innovating tailor-made techniques to provide exceptional service
-                and experience to our clients.
+              <span className="why-text">
+                <h3>
+                  <span className="circle-around-letter-p">P</span>assion
+                </h3>
+                {/* We are passionate about what we do and it is not just business. */}
+                <span className="why-message">
+                  It is not just business. It is our passion and we follow it
+                  with a purpose to fullfil your dreams. We walk the extra mile
+                  to finish your projects without cutting the corners.
+                </span>
               </span>
-            </span>
-          </div>
-          <br />
-          <div className="why">
-            <span className="icon-wrapper">
-              <img className="why-icon" src={trust} />
-            </span>
-            <span className="why-text">
-              <h3>
-                {" "}
-                <span className="circle-around-letter-t">T</span>rust
-              </h3>
-              <span className="why-message">
-                Trust is the key to our business. We want to build a long
-                lasting relationship so that our clients and partners can always
-                count on us.
+            </div>
+            <br />
+            <div className="why">
+              <span className="icon-wrapper">
+                <img className="why-icon" src={innovation} />
               </span>
-            </span>
-          </div>
-          <div className="pitstop-text">
-            We never stop working on our <strong>PIT</strong>
+              <span className="why-text">
+                <h3>
+                  <span className="circle-around-letter-i">I</span>nnovation
+                </h3>
+                <span className="why-message">
+                  We strive for achieving excellence by constantly exploring and
+                  innovating tailor-made techniques to provide exceptional
+                  services and experiences to our clients.
+                </span>
+              </span>
+            </div>
+            <br />
+            <div className="why">
+              <span className="icon-wrapper">
+                <img className="why-icon" src={trust} />
+              </span>
+              <span className="why-text">
+                <h3>
+                  {" "}
+                  <span className="circle-around-letter-t">T</span>rust
+                </h3>
+                <span className="why-message">
+                  Trust is the key to our business. We want to build long
+                  lasting relationships with our our clients and partners who
+                  can always count on us.
+                </span>
+              </span>
+            </div>
+            <div className="pitstop-text">
+              We never stop working on our <strong>PIT</strong>
+            </div>
           </div>
         </div>
         <div
@@ -159,7 +162,7 @@ function App() {
             industry.
             <br /> <br />
             Our goal is to build a world class post production facility that
-            provide cost effective and innovative solutions for Digital
+            provides cost effective and innovative solutions for Digital
             Intermidiate and VFX workflows.
           </p>
         </div>
@@ -183,9 +186,7 @@ function App() {
         <div className="phone">
           <a
             style={{
-              paddingLeft: "1rem",
               color: "white",
-              // textDecoration: "none",
             }}
             href={"tel:" + "+91 95140 00440"}
           >
