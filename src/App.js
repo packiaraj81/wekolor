@@ -78,7 +78,7 @@ function App() {
             <strong>
               <span style={{ color: "white" }}>
                 &nbsp;
-                <q>Best Colorist – Kerala state award for the year 2017</q>
+                <q>Best Colorist – Kerala state film award for the year 2017</q>
               </span>
             </strong>
             .
