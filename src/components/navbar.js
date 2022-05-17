@@ -5,7 +5,6 @@ import { FaBars } from "react-icons/fa";
 export const NavigationBar = () => (
   <navbar className="navbar-wrapper">
     <img className="logo" src={logo} alt="" />
-    <div className="navbar-content">WeKolor</div>
     <div>
       <FaBars className="menu" />
     </div>

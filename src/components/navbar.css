@@ -8,16 +8,17 @@ navbar {
   justify-content: space-between;
   align-items: center;
 
-  background-color: #041829;
-  color: white;
+  background-color: #f6f6f6;
+  color: black;
   font-weight: 600;
   font-size: 32px;
   padding: 0.4em 0 0.4em 0;
 }
 
 .logo {
-  height: 70px;
+  height: 7rem;
   align-items: flex-start;
+  margin-left: 1.5rem;
 }
 
 .navbar-content {
