@@ -202,7 +202,7 @@ function App() {
 
         <p>
           Corporate Address: <br />
-          WeKolor Media Private Limited
+          <b>WeKolor Media Private Limited</b>
           <br />
           #3 Sri Ramulu Street <br />
           Saravana Colony, Arunachalam Rd <br />
